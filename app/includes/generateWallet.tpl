@@ -59,28 +59,9 @@
 
     <section class="block__help">
 
-      <h2 translate="GEN_Help_0">
-        Already have a wallet somewhere?
-      </h2>
+      
 
-      <ul>
-        <li>
-          <p>
-            <strong>
-              Ledger / TREZOR / Digital Bitbox
-            </strong>:
-            <span translate="GEN_Help_1">
-              Use your
-            </span>
-            <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id">
-              hardware wallet
-            </a>.
-            <span translate="GEN_Help_3">
-              Your device * is * your wallet.
-            </span>
-          </p>
-        </li>
-      </ul>
+      
 
       <ul>
         <li>
@@ -101,22 +82,7 @@
         </li>
       </ul>
 
-      <ul>
-        <li>
-          <p>
-            <strong>
-              Jaxx / imToken
-            </strong>
-            <span translate="GEN_Help_1">Use your</span>
-            <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id" translate="x_Mnemonic">
-              Mnemonic Phrase
-            </a>
-            <span translate="GEN_Help_2">
-              to access your account.
-            </span>
-        </p>
-        </li>
-      </ul>
+      
 
       <ul>
         <li>
